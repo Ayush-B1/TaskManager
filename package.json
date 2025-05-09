@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@hello-pangea/dnd": "^18.0.1",
+    "date-fns": "^4.1.0",
+    "jira-client": "^8.2.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.3.4"
+  },
+  "name": "cloudfrontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

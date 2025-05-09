@@ -1,0 +1,20 @@
+# Dependencies
+/node_modules
+/cloudfrontend/node_modules
+/backend/node_modules
+
+# Environment variables
+.env
+cloudfrontend/.env
+backend/.env
+
+# Build output
+/cloudfrontend/dist
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db

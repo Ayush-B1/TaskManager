@@ -1,0 +1,37 @@
+Smart Contract Integration The application uses Ethereum blockchain through a smart contract (TaskContract.sol) which provides:
+Task creation and storage on the blockchain
+Status updates tracking
+Task completion verification
+Immutable record of task history
+Blockchain Service Layer The blockchainService.js handles:
+Connection to Ethereum network (configured at http://localhost:8546)
+Smart contract interaction using Web3.js
+Task creation and status updates on the blockchain
+Task Creation Flow When a task is created:
+javascript
+
+Transaction hash is stored with the tas
+1. MongoDB stores the task details2. Blockchain creates an immutable record3. Transaction hash is stored with the task
+Data Model Integration The Task.js includes blockchain-specific fields:
+javascript
+
+blockchainTaskId
+blockchainTxHash: String,    // Stores the transaction hashblockchainTaskId: Number     // Stores the task ID on blockchain
+API Integration The task routes (taskRoutes.js) handle:
+Creating tasks in both MongoDB and blockchain
+Updating task status with blockchain verification
+Maintaining consistency between blockchain and database
+Key Benefits
+Immutability: Task history cannot be altered
+Verification: Task status changes are verified on blockchain
+Transparency: All task updates are traceable
+Security: Blockchain ensures data integrity
+Technical Implementation The blockchain integration uses:
+Web3.js for Ethereum interaction
+Smart contract written in Solidity
+Local Ethereum network (can be configured for testnet/mainnet)
+Transaction signing and verification
+This blockchain integration provides an additional layer of security and verification to the task management system, ensuring that task histories are immutable and verifiable.
+
+
+
