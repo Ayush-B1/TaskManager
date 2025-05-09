@@ -108,7 +108,3 @@ The project is organized into two main directories:
 
 3.  **Access the Application:**
     Open your web browser and go to `http://localhost:5173` (or the port shown by Vite).
-
----
-
-This README should provide a good overview for anyone looking at your project.
