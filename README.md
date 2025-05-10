@@ -53,7 +53,7 @@ Before you begin, ensure you have the following installed:
 
 The project is organized into two main directories:
 
--   `frontend/`: Contains the React frontend application.
+-   `cloudfrontend/`: Contains the React frontend application.
 -   `backend/`: Contains the Node.js Express backend server and API logic.
 
 ## Setup and Installation
@@ -80,7 +80,7 @@ The project is organized into two main directories:
 3.  **Set up the Frontend:**
     Navigate back to the project root if needed, then into the frontend directory:
     ```bash
-    cd ../frontend # Or simply 'cd frontend' if you are in the project root
+    cd ../cloudfrontend # Or simply 'cd frontend' if you are in the project root
     npm install
     ```
     Create a `.env` file in the `frontend` directory (`frontend/.env`) and add the following environment variables:
@@ -100,7 +100,7 @@ The project is organized into two main directories:
     The backend server should start, typically on `http://localhost:3002` (or the port you configured).
 
 2.  **Start the Frontend Development Server:**
-    Open another terminal, navigate to the `frontend` directory, and run:
+    Open another terminal, navigate to the `cloudfrontend` directory, and run:
     ```bash
     npm run dev
     ```
